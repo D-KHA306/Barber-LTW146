@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    }
+    .header{
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+    background-position:center;
+    background-size:cover;
+    position: relative;
+    }
+    nav{
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav img{
+        width: 150px;
+    }
+    .nav-links{
+        flex: 1;
+        text-align: right;
+    }
+    .nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+    }
+    .nav-links ul li a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 30px;
+    }
+    .nav-links ul li ::after{
+        content: "";
+        width: 0%;
+        height: 2px;
+        background:#f44336 ;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+    .nav-links ul li:hover::after{
+        width: 100%;
+    }
+    .t1 {
+      text-align: center;
+      color: blueviolet;
+    }
+
+    /*---footer----*/
+    body{
+        color: aliceblue;
+        background-color: black  ;
+    }
+    h1{
+        color: rgb(21, 211, 195);
+        text-align: center;
+       
+    }
+    h2{
+        font-size: 20px;
+        margin-left: 28px;
+        color: rgb(21, 211, 195);
+    
+    }
+    div{
+        color: rgb(21, 211, 195);
+    }
+    button{
+        margin-top: 10px;
+        margin-left: 47px;
+    }
+    img{
+        border-radius: 200px;
+            
+        }
+        #id{
+            border-radius: 15px;
+        }
+
+
+        <*-----slide SHOW----*>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}

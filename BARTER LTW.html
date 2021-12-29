@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <title>LTW BARBER WEBSITE</title>
+    <meta charset="utf-8"/>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>     
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css" >
+<link rel="stylesheet" href="script.js">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+
+
+<body>
+  
+<section class="header">
+<nav>
+<a href=""><img src="images/logo.png"</a>
+<div class="nav-links">
+    <ul>
+
+<li><a class="active" href="BARBER LTW.html">Trang Chủ</a></li>
+<li><a href="trang dich vu.html" >Combo dịch vụ</a></li>
+<li><a href="tin tuc .html" >Trang tin tức</a></li>
+<li><a href="ThongTin.html" >Trang liên hệ</a></li>
+<li><a href="Lien He.html" >Khác</a></li>
+</ul></div></nav>
+<div class="slideshow-container" id="trang 2">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 5</div>
+      <img src="https://zoodmall.com/cdn-cgi/image/w=450,fit=contain,f=auto/https://ae01.alicdn.com/kf/H36dd2e83f0b34bed8c947c480b465277o/Top-Sale-Hair-Clipper-Hair-Trimmer-Barber-Haircut-Rechargeable-Cordless-Hair-Cutting-Machine-Beard-Trimmer-0mm.jpg" style="width:50%">
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 5</div>
+      <img src="https://thumbs.dreamstime.com/z/sale-labels-tags-red-grunt-stamp-design-vintage-vector-illustration-set-sale-labels-tags-red-grunt-stamp-design-vintage-194041844.jpg" style="width:50%">
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 5</div>
+      <img src="https://sc04.alicdn.com/kf/H0defcc2582644b47882c11fb9af96d02k.jpg" style="width:50%">
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 5</div>
+      <img src="https://alitools.io/en/showcase/image?url=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FHda71b03f3c0c49ed8cbbe950372312bfz.jpg" style="width:50%">
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 5</div>
+      <img src="https://images.squarespace-cdn.com/content/v1/56eb783ec6fc08895ceedc6a/1509995008696-X6IIZVVGZ2ZM4R2ZL82O/image-asset.png" style="width:50%">
+    </div>
+    </div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+    
+    <script>
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 3500);
+    }
+    </script>
+
+</section>
+<h1>Về LTW BARBER</h1>
+<p class="t1">"Với vai trò là chuyên gia chăm sóc và tư vấn về tóc BARBER Salon giúp bạn trở nên đẹp hơn với vẻ đẹp cá tính riêng, bạn sẽ đủ tự tin"</p>
+<br>
+<br>
+
+
+
+<h1>LIÊN HỆ TK BARBER</h1>
+ <div class="row" id="trang 4">
+    <div class="col-md-4">
+        <h2>TÓC NAM ĐẸP LTW BARBER</h2>
+    <img src="1.jpg" style="width: 230px;height: 210px; margin-left: 40px;" >
+<div>
+    <button style="font-size:25px; color: blue;"> <i class="fa fa-facebook-square"></i></button>
+    <button style="font-size:25px; color: red;"> <i class="fa fa-youtube"></i></button>
+    <button style="font-size:24px"><i class="fa fa-google"></i></button>
+</div>
+</div>
+    <div class="col-md-4">
+        <h2 align ="center">THÔNG TIN</h2>  
+        <h4 class="name">Trần Đức Thịnh</h4>
+        <div>
+        <i class="fa fa-whatsapp" style="font-size:23px">:   0377410211</i>
+        <br>
+        <i class="material-icons" style="font-size:23px;color:red"></i>
+        <br>
+        <h4 class="name">Nguyễn Duy Khang</h4>
+        <div>
+          <i class="fa fa-whatsapp" style="font-size:23px">:   0158765258</i>
+          <br>
+          <i class="material-icons" style="font-size:23px;color:red"></i>
+          </div>
+    </div>
+    </div>
+    <div class="col-md-4">
+        <h2 align ="center">BẢN ĐỒ</h2>
+        <p align="center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.453650782723!2d106.66530581465523!3d10.776524992321447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752fdf14cf6ff3%3A0x1e66d5fe08be7d06!2zxJDhuqFpIGjhu41jIE5nb-G6oWkgbmfhu68gVGluIGjhu41j!5e0!3m2!1sen!2s!4v1638550160227!5m2!1sen!2s" width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+    </div>
+  </div>
+  
+
+  <form method="get" accept-charset="utf-8" style="width:600px;margin:0px auto;" id="formDemo">
+
+ <fieldset>
+    <div class="col-sm-7 slideanim">
+        <div class="row">
+          <div class="col-sm-6 form-group">
+            <label>Họ Tên</label>
+            <input class="form-control" id="name" name="name" placeholder="Vui lòng nhập họ tên" type="text" required>
+          </div>
+          <div class="col-sm-6 form-group">
+            <label>Số Điện Thoại</label>
+            <input class="form-control" id="phonenumber" name="phonenumber" placeholder="Vui lòng nhập số điện thoại" type="phonenumber" required>
+          </div>
+        </div>
+        <label>Nội Dung</label>
+        <textarea class="form-control" id="comments" name="comments" placeholder="Vui lòng nhập nội dung" rows="5" required></textarea><br>
+        <div class="row">
+          <div class="col-sm-12 form-group">
+            <button class="btn btn-default pull-right" type="submit">Send</button>
+          </div>
+     </fieldset>
+  </form>
+
+ <script type="text/javascript">
+ $(document).ready(function(){
+     $("#formDemo").validate({
+       rules:{
+         name:"required",
+         comments: {
+             required: true,
+             minlength:100,
+                 },	
+        phonenumber: {
+             required: true,
+             minlength: 10,
+             digits: true
+                  }	
+             },
+       messages:{
+         name:"Vui lòng nhập họ tên",
+       
+         phonenumber: {
+             required: "Vui lòng nhập số điện thoại",
+             minlength: "Số điện thoại không hợp lệ",
+         },
+        comments: {
+             required: "Vui lòng nhập nội dung",
+             minlength: "Độ dài tối thiểu 100 từ.",
+                 }		
+                }
+        });
+ });
+ </script>
+</body>
+</html>
